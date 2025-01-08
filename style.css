@@ -29,7 +29,6 @@ li{
 #container{
     margin: auto;
     margin-top: 22px;
-    width: 400px;
     background-color: whitesmoke;
     box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.315);
     border-radius: 22px;
@@ -44,7 +43,6 @@ h1{
     outline: none;
     border-bottom: 2px solid silver;
     background-color: whitesmoke;
-    width: 386px;
     height: 30px;
     font-size: 15px;
 }
@@ -67,4 +65,28 @@ a{
 }
 #noData{
     color: red;
+}
+@media(max-width: 491px){
+    #container{
+        width: 350px;
+    }
+    [type="text"]{
+        width: 333px;
+    }
+}
+@media(min-width: 492px) and (max-width:1023px){
+    #container{
+        width: 400px;
+    }
+    [type="text"]{
+        width: 385px;
+    }
+}
+@media(min-width: 1024px){
+    #container{
+        width: 450px;
+    }
+    [type="text"]{
+        width:430px;
+    }
 }
