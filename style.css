@@ -1,0 +1,70 @@
+#mainContainer{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+  font-family: 'crossIcon';
+  src:  url('fonts/icomoon.eot'),
+        url('fonts/icomoon.svg'),
+        url('fonts/icomoon.ttf'),
+        url('fonts/icomoon.woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+
+.icon-cross:before {
+  content: "\ea0f";
+  font-family: crossIcon;
+  color: red;
+  font-size: 12px;
+  position:absolute;
+  right: 40px;
+}
+li{
+    line-height: 22px;
+    position: relative;
+}
+#container{
+    margin: auto;
+    margin-top: 22px;
+    width: 400px;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.315);
+    border-radius: 22px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+[type="text"]{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid silver;
+    background-color: whitesmoke;
+    width: 386px;
+    height: 30px;
+    font-size: 15px;
+}
+[type="text"]:focus{
+    border-bottom-color: blue;
+    
+}
+[type="submit"],#clearTasks{
+    background-color: rgb(7, 158, 27);
+    color: white;
+    border-radius: 5px;
+    padding: 7px 12px;
+    border: none;
+}
+#clearTasks{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+#noData{
+    color: red;
+}
