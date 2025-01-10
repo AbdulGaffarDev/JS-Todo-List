@@ -29,10 +29,10 @@ li{
 #container{
     margin: auto;
     margin-top: 22px;
+    box-sizing: border-box;
     background-color: whitesmoke;
     box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.315);
     border-radius: 22px;
-    padding: 20px;
 }
 h1{
     text-align: center;
@@ -68,25 +68,28 @@ a{
 }
 @media(max-width: 491px){
     #container{
-        width: 350px;
+        width: 320px;
+        padding: 10px;
     }
     [type="text"]{
-        width: 333px;
+        width: 280px;
     }
 }
 @media(min-width: 492px) and (max-width:1023px){
     #container{
-        width: 400px;
+        width: 380px;
+        padding: 16px;
     }
     [type="text"]{
-        width: 385px;
+        width: 320px;
     }
 }
 @media(min-width: 1024px){
     #container{
-        width: 450px;
+        width: 430px;
+        padding: 20px;
     }
     [type="text"]{
-        width:430px;
+        width:370px;
     }
 }
