@@ -68,8 +68,9 @@ a{
 }
 @media(max-width: 491px){
     #container{
-        width: 320px;
-        padding: 10px;
+        width: 330px;
+        padding: 18px;
+        padding-bottom: 22px;
     }
     [type="text"]{
         width: 280px;
@@ -78,7 +79,8 @@ a{
 @media(min-width: 492px) and (max-width:1023px){
     #container{
         width: 380px;
-        padding: 16px;
+        padding: 22px;
+        padding-bottom: 25px;
     }
     [type="text"]{
         width: 320px;
@@ -87,7 +89,8 @@ a{
 @media(min-width: 1024px){
     #container{
         width: 430px;
-        padding: 20px;
+        padding: 25px;
+        padding-bottom: 25px;
     }
     [type="text"]{
         width:370px;
